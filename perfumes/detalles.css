@@ -1,0 +1,26 @@
+/* GENERAL */
+
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(100, 97, 97);
+}
+
+body {
+  background-color: #5c46be8f;
+}
+
+.contenedor {
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+  height: 700%px;
+  height: 80%;
+  border-radius: 45px;
+}
+
+.img {
+  height: 80%;
+  float: left;
+}

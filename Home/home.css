@@ -1,0 +1,154 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: rgba(173, 167, 167, 0.308);
+}
+
+h2 {
+  margin-top: 85px;
+  font-size: 30px;
+  color: rgb(36, 34, 34);
+}
+
+h2:hover {
+  font-size: 35px;
+  color: rgb(174, 57, 209);
+}
+
+/* PORTADA */
+
+.portada {
+  background-image: url(portada.png);
+  width: 100%;
+}
+
+.portada-img {
+  width: 100%;
+}
+
+.navegacion {
+  font-size: 30px;
+  float: right;
+  font-weight: 590;
+}
+
+nav > a {
+  color: rgb(58, 57, 57);
+  margin-right: 10px;
+}
+
+nav > a:hover {
+  color: azure;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+/* SECCIONES */
+
+.secciones {
+  text-align: center;
+}
+.secciones > div {
+  display: inline-block;
+  /* margin-top: 50px; */
+  align-content: center;
+}
+
+.bikinis {
+  background-image: url(productos/bikinis/portada-bikiniss.jpg);
+  background-position: center;
+  height: 200px;
+  width: 45%;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.accesorios {
+  background-image: url(productos/accesorios/portada-accesorios.jpg);
+  background-position: center;
+  height: 200px;
+  width: 20%;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.zapatos {
+  background-image: url(productos/zapatos/portada-zapatoss.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: hidden;
+  height: 200px;
+  width: 20%;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bolsos {
+  background-image: url(productos/bolsos/portada-bolsos.png);
+  background-position: center;
+  background-color: rgb(98, 0, 255);
+  height: 200px;
+  width: 20%;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.maquillaje {
+  background-image: url(productos/maquillaje/portada-maquillaje.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 20%;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.perfume {
+  background-image: url(productos/perfume/portada-perfumess.jpg);
+  background-position: center;
+  height: 200px;
+  width: 45%;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.nuevos {
+  text-align: center;
+  font-size: 25px;
+}
+
+.nuevos-contenedor {
+  text-align: center;
+}
+
+.nuevos-items {
+  /* padding: 25px 0px 0px 55px; */
+  background-color: rgb(252, 252, 252);
+  width: 290px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.nuevos-img {
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}

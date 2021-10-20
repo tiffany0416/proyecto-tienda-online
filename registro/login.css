@@ -1,0 +1,84 @@
+/* GENERAL */
+
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(100, 97, 97);
+}
+
+body {
+  background-color: #5c46be8f;
+}
+
+.contenedor {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+  padding: 40px;
+  border-radius: 45px;
+}
+/* INGRESAR */
+
+.registro {
+  float: right;
+}
+
+.boton-registro {
+  height: 30px;
+  width: 90px;
+  color: #5c46be8f;
+  border-radius: 40px;
+  border: solid 1px;
+}
+
+.boton-registro:hover {
+  background-color: #5c46be8f;
+  color: blanchedalmond;
+}
+
+/* FORMULARIO */
+
+img {
+  margin-top: 50px;
+  height: 100%;
+  width: 50%;
+  float: left;
+  align-items: center;
+}
+
+.formulario {
+  margin-top: 60px;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+}
+
+.datos {
+  color: #6a6777f3;
+  height: 30px;
+  border: solid 1px;
+  border-radius: 7px;
+}
+
+.boton-login {
+  height: 45px;
+  width: 150px;
+  border-radius: 40px;
+  border: solid 1px;
+  background-color: #5c46be8f;
+  color: white;
+}
+
+.boton-login:hover {
+  background-color: white;
+  color: #5c46be8f;
+}
+
+a {
+  text-decoration: none;
+}
